@@ -1,0 +1,19 @@
+This function provides a simple, idiomatic way to determine if an integer is even by checking the remainder of its division by two.
+
+*   Uses the modulo operator `%` to identify if a number is perfectly divisible by two.
+*   Includes Python type hinting to improve code clarity and integration with development tools.
+*   Follows PEP 257 conventions for descriptive and accessible docstrings.
+
+```python
+def is_even(n: int) -> bool:
+    """
+    Determine if a given integer is even.
+
+    Args:
+        n (int): The integer to evaluate.
+
+    Returns:
+        bool: True if n is even, False otherwise.
+    """
+    return n % 2 == 0
+``` 
