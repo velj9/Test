@@ -1,0 +1,19 @@
+This function determines parity by checking the remainder of a division operation against zero.
+
+*   **Modulo Operator:** Uses the `%` operator to calculate the remainder of `n` divided by 2.
+*   **Boolean Return:** Returns `True` if the remainder is 0 (even) and `False` otherwise (odd).
+*   **Type Flexibility:** Works with standard Python integers of any size.
+
+```python
+def is_even(n: int) -> bool:
+    """
+    Returns True if the integer n is even, False otherwise.
+
+    Args:
+        n (int): The number to check.
+
+    Returns:
+        bool: Parity result.
+    """
+    return n % 2 == 0
+``` 
